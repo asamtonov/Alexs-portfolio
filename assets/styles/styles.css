@@ -1,0 +1,35 @@
+/* asterisk means everything */
+*{
+    margin: 4px;;
+    padding:0px;
+
+}
+
+body{
+    background: FFF9F2;
+    color: 4A4563;
+    font-size: 18px;
+    font-family: "Niramit";
+    width: 60%;
+    margin: auto
+}
+
+h1{
+    font-family: "Lalezar", system-ui;
+    color: 615B81;
+    font-weight: 1000;
+    font-style: normal;  
+    padding-top: 1em;
+    padding-bottom: .25em;
+}
+
+
+
+
+a hover{
+    color:585EA1;
+    background: FFF9F2;
+    font-size: 18px;
+    font-family: "Niramit";
+}
+
