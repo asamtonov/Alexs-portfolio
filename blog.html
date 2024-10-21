@@ -17,8 +17,8 @@
 </head>
 
 <body> <h1>
-My Portfolio Website: <br>Showcasing Skills and Projects
-       </h1><br>
+My Portfolio Website: Showcasing Skills and Projects
+       </h1>
     
     <nav>
         Welcome to my portfolio website! This is where I showcase my skills, experience,
@@ -30,8 +30,7 @@ My Portfolio Website: <br>Showcasing Skills and Projects
         <article>
 
         </article>
-   <br><br>
-    <section>Table of Contents</section><br>
+    <section>Table of Contents</section>
         <ul>
             <li>About Me</li>
             <li>Skills</li>
@@ -39,78 +38,83 @@ My Portfolio Website: <br>Showcasing Skills and Projects
             <li>Contact</li>
         </ul>
         
-            <img src="assets/images/sky.png" alt="Sunset sky at beach" width="350">
-    <footer><br>
+            <img id="Sky-at-beach" src="assets/images/sky.png" alt="Sunset sky at beach" width="350">
+    <footer>
        <h2>About Me</h2>
     </footer>
      <nav>
         In the About Me section, you can learn more about my professional journey. From my early
         experiences to my current expertise, I've detailed the various stages of my career. If you're
         curious about my background, check out this section to learn more!
-    </nav><br>
+    </nav>
     <p>This blog will show
         <b>different</b>
-        kinds of <i>work</i><br><br><br>
+        kinds of <i>work</i>
        <h2>Skills</h2>
     <nav>Over the years, I've developed a wide range of technical and creative skills that allow me to 
         approach problems with both analytical precision and innovative thinking. My primary focus has 
         been on web development and programming, where I've gained deep expertise in languages like Python 
-        and JavaScript.<br><br>
+        and JavaScript.
 
-        Here are some key areas where I excel:<br><br>
-        Web Development: Expertise in HTML, CSS, JavaScript, etc. to build responsive, dynamic websites <br>
+        Here are some key areas where I excel:
+        Web Development: Expertise in HTML, CSS, JavaScript, etc. to build responsive, dynamic websites 
         Programming: Strong proficiency in Python, JavaScript, and related libraries, with a focus on clean, 
-        efficient code.<br>
+        efficient code.
         Design: Skilled in Figma and Adobe XD for creating user-centric interface designs that are intuitive 
-        and visually appealing.</nav><br><br>
+        and visually appealing.</nav>
        <h2>Featured Projects</h2>
     <p>   <h4>Here's a selection of the projects I'm most proud of:</h4>
-       <br>
+      
     <ul>
        <li>Project 1: A web application built using React and Node.js. Check it out here.</li>
        <li>Project 2: A data visualization dashboard using Tableau. View the dashboard here.</li>
        <li>Project 3: A personal blog platform designed in Django. See the live blog here.</li>
-    </ul><br>
+    </ul>
     </p>
 
     <nav>
         Head over to the Projects section for more details about each project, including my role and the 
         technologies used. 
     </nav> 
-
-    <p>
-        <a href="index.html">Return to Homepage</a>
-</p>
-<form>
-    <label for="newsletter">Enter your email</label>
-
-    <input id="newsletter" type="email" placeholder="example@gmail.com">
+<section id="newsletter-subscribe">
+    <h2>Keep in Touch</h2>
+    <form>
+        <label for="newsletter">Enter your email</label><br>
+        <input id="newsletter" type="email" placeholder="example@gmail.com">
+        <button>Subscribe</button>
+    </form>
     <p></p>
-</form>
+
+
+</section>
 
   <section>
      <h2>Related Articles</h2>
-     <article>
-        <a href="">
-          <img src="assets/images/starry night.png" width="350">
-          <h3>An Inside Look at My Creative Process: Discover How I Transform Concepts into  Designs</h3>
-        </a>
-     </article>
+     <div class="article-grid">
+        <article id="article-1"> 
+            <a href="">
+            <img src="assets/images/starry night.png">
+            <h3>An Inside Look at My Creative Process: Discover How I Transform Concepts into  Designs</h3>
+            <span class="article-date"> September 7, 2024</span>
+            </a>
+        </article>
 
-     <article></article>
-        <a href="">
-          <img src="assets/images/">
-          <h3>Exploring My Latest Projects: A Detailed Overview of the Work That Best Represents My Skills and Creativity</h3>
-        </a>
-     </article>
+        <article id="article-2">
+            <a href="">
+            <img src="assets/images/starry night.png">
+            <h3>Exploring My Latest Projects: A Detailed Overview of the Work That Best Represents My Skills and Creativity</h3>
+            <span class="article-date">September 28, 2024</span>
+            </a>
+        </article>
 
-     <article></article>
-        <a href="">
-          <img src="assets/images/">
-          <h3>Client Success Stories: How My Portfolio Projects Have Delivered Real Results and Made a Difference</h3>
-        </a>
-     </article>
-
+        <article id="article-3">
+            <a href="">
+            <img src="assets/images/starry night.png">
+            <h3>Client Success Stories: How My Portfolio Projects Have Delivered Real Results and Made a Difference</h3>
+            <span class="article-date">November 5, 2024</span>
+            </a>
+        </article>
+        </div>
   </section>
 
 </main>
