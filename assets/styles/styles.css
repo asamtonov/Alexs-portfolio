@@ -1,3 +1,94 @@
+body {
+    font-family: sans-serif;
+  }
+  nav {
+      display: flex;
+      justify-content: space-between;
+      background-color: teal;
+      padding: 20px 10%;
+      align-items: center;
+  }
+  
+  #main-menu {
+      display: flex;
+      color: white; 
+      gap: 20px;
+  }
+  
+  menu li {
+      list-style: none;
+     
+  }
+  
+  #main-menu button {
+      background-color: transparent;
+      border: none;
+      font-size: 20px;
+      font-weight: bold;
+      margin: 0px;
+      color: white;
+    
+  }
+  
+  
+  
+  #main-menu a {
+      color: white;
+      text-decoration: none;
+  }
+  /* We style the submenu and give it a position of absolute. Position: absolute removes an element from the normal flow of the page and has it take up no space. Z-index makes sure the menu is on top of the rest of the items on the page. Display: none hides it by default */
+  
+  .dropdown-menu {
+      background-color: bisque;
+      position: absolute;
+      display: none; 
+      z-index: 1;
+     margin: 0px;
+     padding: 10px;
+      
+      
+  }
+  
+  /* this is saying: when the mouse hovers over an element with the class dropdown, display the dropdown submenu. */
+  
+  .dropdown:hover .dropdown-menu {
+      display: block;
+      
+  
+  }
+  /* this is a more complicated selection. I am selecting buttons that are being hovered on that are children of list items inside of the #main-menu id AND (notice the comma) links that are children of list items inside of the #main-menu id */
+  
+  #main-menu li button:hover, #main-menu > li > a:hover {
+      color: bisque;
+      text-decoration: underline;
+  }
+  
+  #main-menu .dropdown-menu a:hover {
+      text-decoration: underline;
+  }
+  
+  
+  
+  #main-menu .dropdown-menu a {
+  
+      color: teal;
+      padding-block: 10px;
+      display: inline-block;
+  
+  }
+  
+  menu {
+  font-size: 20px;
+  font-weight: bold;
+  }
+  
+  
+  
+  .logo {
+      font-size: 32px;
+      color: white;
+      text-decoration: none;
+  }
 /* asterisk means everything */
 *{
     margin: 4px;;
@@ -146,6 +237,16 @@ a hover{
     grid-row: 2 / span 2;
 }
 
+/* laptop breakpoint size */
+
+@media (max-width: 1026px) {
+
+    main{
+        width:60%;
+        
+    }
+
+}
 
 
 
