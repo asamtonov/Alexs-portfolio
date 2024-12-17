@@ -60,9 +60,10 @@ a:hover {
 }
 
 .logo {
-  font-size: 2rem;
+  font-size: 3rem;
   color:#ffffff;
   font-weight: 400;
+  
 }
 
 .logo:hover {
@@ -571,5 +572,9 @@ img{
   margin-right: auto;
   padding-top: 100px;
   padding-bottom: 100px;
+}
+
+#copyright{
+    color:#FFFFFF;
 }
 
